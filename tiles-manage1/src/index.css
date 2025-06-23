@@ -1,0 +1,7 @@
+@import "tailwindcss";
+body {
+  background: radial-gradient(ellipse at top, #1f2937, #1e293b, #1f2937);
+  color: white;
+  min-height: 100vh;
+}
+

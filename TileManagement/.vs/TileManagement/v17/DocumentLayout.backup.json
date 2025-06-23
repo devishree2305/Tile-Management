@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devis\\source\\repos\\TileManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\controllers\\categorymastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\controllers\\categorymastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\source\\repos\\tilemanagement\\tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TileManagement\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv3MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:44:24.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryMasterController.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\CategoryMasterController.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Controllers\\CategoryMasterController.cs",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\CategoryMasterController.cs",
+              "RelativeToolTip": "TileManagement\\Controllers\\CategoryMasterController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:15:33.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Models\\Users.cs",
+              "RelativeToolTip": "TileManagement\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:20:39.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "TileManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\appsettings.json",
+              "RelativeToolTip": "TileManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T09:10:08.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TileManagement\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:08:46.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\devis\\source\\repos\\TileManagement\\TileManagement\\Program.cs",
+              "RelativeToolTip": "TileManagement\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwv1EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T04:44:30.816Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
