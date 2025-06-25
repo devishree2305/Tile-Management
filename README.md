@@ -4,6 +4,7 @@ A full-stack Tile Management application with:
 
 - 🔷 **Frontend**: React.js (`tiles-manage1`)
 - 🔷 **Backend**: ASP.NET Core (`TileManagement`)
+- 🔷 **Database**: MySQL
 
 ---
 
@@ -27,7 +28,7 @@ npm install lucide-react
 npm install react-icons  
 npm install sweetalert2  
 npm install framer-motion  
-npm install wt-decode..
+npm install jwt-decode..
 
 ## Backend Setup (TileManagement)
 1. Open TileManagement.sln in Visual Studio.  
