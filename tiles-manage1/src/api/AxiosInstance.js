@@ -19,7 +19,7 @@ instance.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Optional: Response interceptor (handle 401)
+// handle 401
 instance.interceptors.response.use(
   (response) => response,
   (error) => {
