@@ -23,6 +23,13 @@ cd Tile-Management
 Configure API Port , inside /src/api - Ensure matches the port used by the backend.  
 npm run dev   # for vite
 
+npm install axios  
+npm install lucide-react  
+npm install react-icons  
+npm install sweetalert2  
+npm install framer-motion  
+npm install wt-decode..
+
 ## Backend Setup (TileManagement)
 1. Open TileManagement.sln in Visual Studio.  
 2. In appsettings.json, update the database connection string and jwt  
