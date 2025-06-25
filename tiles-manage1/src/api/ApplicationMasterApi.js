@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "./AxiosInstance";
 
 const API_URL = "https://localhost:<YOUR-PORT>/api/applicationMaster";
 

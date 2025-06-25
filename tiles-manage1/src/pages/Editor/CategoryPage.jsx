@@ -29,17 +29,25 @@ export default function CategoryPage() {
     emptyForm: {
       categoryId: null,
       name: "",
-      block: "0",
+      block: "0", // default to Visible
     },
-    getPayload: (data) => ({
-      categoryId: data.categoryId,
-      name: data.name.trim(),
-      block: data.block === "1",
-    }),
+    getPayload: (data) => {
+      const payload = {
+        name: data.name.trim(),
+        block: data.block === "1", // convert "1"/"0" to true/false
+      };
+
+      if (data.categoryId !== null) {
+        payload.categoryId = data.categoryId; // only for updates
+      }
+
+      return payload;
+    },
   });
 
   return (
     <div className="space-y-8">
+      {/* Form */}
       <FormWrapper
         onSubmit={handleSubmit}
         message={message}
@@ -66,6 +74,7 @@ export default function CategoryPage() {
         </select>
       </FormWrapper>
 
+      {/* Table */}
       <ListTable
         columns={[
           { label: "Name" },

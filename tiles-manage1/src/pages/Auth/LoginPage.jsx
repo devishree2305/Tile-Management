@@ -10,7 +10,7 @@ export default function LoginPage() {
   const navigate = useNavigate();
   const { login, isAuthenticated, user } = useAuth();
 
-  // ⛔️ Already logged in? Redirect based on role
+  // Already logged in? Redirect based on role
   useEffect(() => {
     if (isAuthenticated && user) {
       if (user.role === "editor") navigate("/home");
@@ -26,7 +26,7 @@ export default function LoginPage() {
       const response = await loginUser(formData);
       const { token, user } = response.data;
 
-      login(user, token); // 🔐 Save user + token in context
+      login(user, token); //Save user + token in context
 
       // ⏩ Redirect based on role
       if (user.role === "editor") navigate("/home");

@@ -37,22 +37,29 @@ export default function ProductsPage() {
       applicationId: "",
       block: "0",
     },
-    getPayload: (data) => ({
-      prodId: data.prodId,
-      prodName: data.prodName.trim(),
-      sqCode: data.sqCode.trim(),
-      categoryId: parseInt(data.categoryId),
-      applicationId: parseInt(data.applicationId),
-      block: data.block === "1",
-    }),
+    getPayload: (data) => {
+      const payload = {
+        prodName: data.prodName.trim(),
+        sqCode: data.sqCode.trim(),
+        categoryId: parseInt(data.categoryId),
+        applicationId: parseInt(data.applicationId),
+        block: data.block === "1", // convert string to boolean
+      };
+
+      if (data.prodId !== null) {
+        payload.prodId = data.prodId;
+      }
+
+      return payload;
+    },
   });
 
   const [categories, setCategories] = useState([]);
   const [applications, setApplications] = useState([]);
 
   useEffect(() => {
-    getCategoryMasters().then((res) => setCategories(res.data)); // Include all (even blocked)
-    getApplicationMasters().then((res) => setApplications(res.data)); // Include all (even blocked)
+    getCategoryMasters().then((res) => setCategories(res.data));
+    getApplicationMasters().then((res) => setApplications(res.data));
   }, []);
 
   const getCategoryName = (id) => {
@@ -67,6 +74,7 @@ export default function ProductsPage() {
 
   return (
     <div className="space-y-8">
+      {/* Product Form */}
       <FormWrapper
         onSubmit={handleSubmit}
         message={message}
@@ -100,7 +108,7 @@ export default function ProductsPage() {
         >
           <option value="">Select Category</option>
           {categories
-            .filter((c) => !c.block) // Only visible ones in dropdown
+            .filter((c) => !c.block)
             .map((c) => (
               <option key={c.categoryId} value={c.categoryId}>
                 {c.name}
@@ -116,7 +124,7 @@ export default function ProductsPage() {
         >
           <option value="">Select Application</option>
           {applications
-            .filter((a) => !a.block) // Only visible ones in dropdown
+            .filter((a) => !a.block)
             .map((a) => (
               <option key={a.applicationId} value={a.applicationId}>
                 {a.name}
@@ -134,6 +142,7 @@ export default function ProductsPage() {
         </select>
       </FormWrapper>
 
+      {/* Product Table */}
       <ListTable
         columns={[
           { label: "Name" },

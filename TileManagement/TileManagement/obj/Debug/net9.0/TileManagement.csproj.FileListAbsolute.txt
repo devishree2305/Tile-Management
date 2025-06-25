@@ -85,11 +85,7 @@ C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileM
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.AssemblyInfo.cs
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.csproj.CoreCompileInputs.cache
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.RazorAssemblyInfo.cache
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.RazorAssemblyInfo.cs
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\scopedcss\bundle\TileManagement.styles.css
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\scopedcss\projectbundle\TileManagement.bundle.scp.css
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\cxhgdpjbi2-b9sayid5wm.gz
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\3y4xm6ao6u-61n19gt1b8.gz
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\eir2k0xdmc-xtxxf3hu2r.gz
@@ -152,8 +148,6 @@ C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compr
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\13r71qixga-muycvpuwrr.gz
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\89h7k2gkxv-87fc7y1x7t.gz
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\24rpot2841-mlv21k5csn.gz
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\izn4gg3vhn-tay5wmajxi.gz
-C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\compressed\fwg2uorcdh-tay5wmajxi.gz
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\staticwebassets.development.json
@@ -173,3 +167,8 @@ C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Micro
 C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\devis\source\repos\TileManagement\TileManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\devis\source\repos\TileManagement\TileManagement\obj\Debug\net9.0\TileManagement.MvcApplicationPartsAssemblyInfo.cs

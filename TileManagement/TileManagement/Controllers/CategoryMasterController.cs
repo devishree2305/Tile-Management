@@ -16,14 +16,14 @@ namespace TileManagement.Controllers
             _context = context;
         }
 
-        // ✅ GET: api/categorymaster
+        // GET: api/categorymaster
         [HttpGet]
         public IActionResult GetAllCategories()
         {
             return Ok(_context.CategoryMasters.ToList());
         }
 
-        // ✅ GET: api/categorymaster/{id}
+        // GET: api/categorymaster/{id}
         [HttpGet("{id}")]
         public IActionResult GetCategoryById(int id)
         {
@@ -34,7 +34,7 @@ namespace TileManagement.Controllers
             return Ok(category);
         }
 
-        // ✅ POST: api/categorymaster
+        // POST: api/categorymaster
         [HttpPost]
         public IActionResult Create([FromBody] CategoryMaster cat)
         {
@@ -47,7 +47,7 @@ namespace TileManagement.Controllers
             return CreatedAtAction(nameof(GetCategoryById), new { id = cat.CategoryId }, cat);
         }
 
-        // ✅ PUT: api/categorymaster/{id}
+        // PUT: api/categorymaster/{id}
         [HttpPut("{id}")]
         public IActionResult UpdateCategory(int id, [FromBody] CategoryMaster updated)
         {
@@ -61,7 +61,7 @@ namespace TileManagement.Controllers
             existing.Name = updated.Name;
             existing.Block = updated.Block;
 
-            // ✅ Block all related products if this category is blocked
+            // Block all related products if this category is blocked
             if (updated.Block == true)
             {
                 var relatedProducts = _context.Products
@@ -78,7 +78,7 @@ namespace TileManagement.Controllers
             return NoContent();
         }
 
-        // ✅ DELETE: api/categorymaster/{id}
+        // DELETE: api/categorymaster/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteCategory(int id)
         {

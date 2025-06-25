@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Swal from "sweetalert2";
 
 export default function useCrudHandler({
   getList,
@@ -32,6 +33,7 @@ export default function useCrudHandler({
     e.preventDefault();
     try {
       const payload = getPayload(formData);
+      console.log("Payload being sent to create:", payload);
 
       if (editing) {
         await updateItem(getItemId(formData), { ...payload });
@@ -45,7 +47,10 @@ export default function useCrudHandler({
       fetchData();
     } catch (err) {
       console.error("❌ Submit failed:", err);
+      console.log("Payload being sent to create:", payload);
       showMessage("❌ Failed to process request.", false);
+      showMessage("Payload being sent to create:", payload);
+      console.log("Payload being sent to create:", payload);
     }
   };
 
@@ -60,16 +65,50 @@ export default function useCrudHandler({
   };
 
   const handleDelete = async (id) => {
-    if (!window.confirm("Are you sure you want to delete this item?")) return;
+  const result = await Swal.fire({
+    title: "Are you sure?",
+    text: "You won't be able to undo this!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#9333ea", // Tailwind's purple-600
+    cancelButtonColor: "#6b7280",  // Tailwind's gray-500
+    confirmButtonText: "Yes, delete it!",
+    cancelButtonText: "Cancel",
+    background: "#1f2937",         // Tailwind's gray-800
+    color: "#fff",
+  });
+
+  if (result.isConfirmed) {
     try {
       await deleteItem(id);
       showMessage("✅ Deleted successfully!", true);
       fetchData();
+
+      Swal.fire({
+        title: "Deleted!",
+        text: "The item has been removed.",
+        icon: "success",
+        confirmButtonColor: "#9333ea",
+        background: "#1f2937",
+        color: "#fff",
+        timer: 1500,
+        showConfirmButton: false,
+      });
     } catch (err) {
       console.error("❌ Delete failed:", err);
       showMessage("❌ Failed to delete.", false);
+
+      Swal.fire({
+        title: "Error!",
+        text: "Failed to delete item.",
+        icon: "error",
+        confirmButtonColor: "#9333ea",
+        background: "#1f2937",
+        color: "#fff",
+      });
     }
-  };
+  }
+};
 
   const resetForm = () => {
     setFormData(emptyForm);

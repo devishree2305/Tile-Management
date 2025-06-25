@@ -9,6 +9,8 @@ export default function ViewerProductsPage() {
   const [categories, setCategories] = useState([]);
   const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedApplication, setSelectedApplication] = useState("all");
 
   useEffect(() => {
     const fetchAll = async () => {
@@ -18,7 +20,8 @@ export default function ViewerProductsPage() {
           getCategoryMasters(),
           getApplicationMasters(),
         ]);
-        setProducts(prodRes.data.filter((p) => !p.block));
+        const filteredProducts = prodRes.data.filter((p) => !p.block);
+        setProducts(filteredProducts);
         setCategories(catRes.data);
         setApplications(appRes.data);
       } catch (err) {
@@ -37,6 +40,27 @@ export default function ViewerProductsPage() {
   const getApplicationName = (id) =>
     applications.find((a) => a.applicationId === id)?.name || "N/A";
 
+  // Filter dropdown options based on actual product data
+  const usedCategoryIds = [...new Set(products.map((p) => p.categoryId))];
+  const usedApplicationIds = [...new Set(products.map((p) => p.applicationId))];
+
+  const filteredCategoryOptions = categories.filter((cat) =>
+    usedCategoryIds.includes(cat.categoryId)
+  );
+  const filteredApplicationOptions = applications.filter((app) =>
+    usedApplicationIds.includes(app.applicationId)
+  );
+
+  // Final product filter logic
+  const filteredProducts = products.filter((p) => {
+    const categoryMatch =
+      selectedCategory === "all" || p.categoryId === Number(selectedCategory);
+    const applicationMatch =
+      selectedApplication === "all" ||
+      p.applicationId === Number(selectedApplication);
+    return categoryMatch && applicationMatch;
+  });
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
@@ -52,13 +76,44 @@ export default function ViewerProductsPage() {
         Available Products
       </h2>
 
-      {products.length === 0 ? (
+      {/* Filters */}
+      <div className="flex justify-center gap-6 mb-4">
+        {/* Category Filter */}
+        <select
+          className="bg-gray-900 text-white border border-purple-700 px-4 py-2 rounded-xl"
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
+        >
+          <option value="all">All Categories</option>
+          {filteredCategoryOptions.map((cat) => (
+            <option key={cat.categoryId} value={cat.categoryId}>
+              {cat.name}
+            </option>
+          ))}
+        </select>
+
+        {/* Application Filter */}
+        <select
+          className="bg-gray-900 text-white border border-purple-700 px-4 py-2 rounded-xl"
+          value={selectedApplication}
+          onChange={(e) => setSelectedApplication(e.target.value)}
+        >
+          <option value="all">All Applications</option>
+          {filteredApplicationOptions.map((app) => (
+            <option key={app.applicationId} value={app.applicationId}>
+              {app.name}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {filteredProducts.length === 0 ? (
         <p className="text-gray-300 text-center text-lg mt-6">
           No products available.
         </p>
       ) : (
         <div className="space-y-4">
-          {/* Header */}
+          {/* Table Header */}
           <div className="grid grid-cols-5 gap-4 px-6 py-3 bg-gray-900 rounded-xl border border-purple-700 text-white font-semibold text-lg shadow-lg backdrop-blur-sm">
             <div className="flex items-center gap-2">
               <FaBoxes className="text-purple-400" /> Name
@@ -77,16 +132,20 @@ export default function ViewerProductsPage() {
             </div>
           </div>
 
-          {/* Products */}
-          {products.map((prod) => (
+          {/* Product Rows */}
+          {filteredProducts.map((prod) => (
             <div
               key={prod.prodId}
               className="grid grid-cols-5 gap-4 items-center px-6 py-4 bg-gray-800 rounded-xl border border-gray-700 text-white shadow-md hover:shadow-purple-700 transition duration-300 transform hover:scale-[1.01]"
             >
               <div className="text-lg font-medium">{prod.prodName}</div>
               <div className="text-gray-300">{prod.sqCode}</div>
-              <div className="text-purple-300">{getCategoryName(prod.categoryId)}</div>
-              <div className="text-blue-300">{getApplicationName(prod.applicationId)}</div>
+              <div className="text-purple-300">
+                {getCategoryName(prod.categoryId)}
+              </div>
+              <div className="text-blue-300">
+                {getApplicationName(prod.applicationId)}
+              </div>
               <div className="text-green-400 font-semibold">Available</div>
             </div>
           ))}

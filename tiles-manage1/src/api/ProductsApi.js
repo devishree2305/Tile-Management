@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from "./AxiosInstance";
 
-const API_URL = "https://localhost:YOUR-PORT/api/products";
+const API_URL = "https://localhost:<YOUR-PORT>/api/products";
 
 export const getProducts = () => axios.get(API_URL);
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ProductsPage from "./Editor/ProductsPage";
-import CategoryPage from "./Editor/CategoryPage";
-import ApplicationPage from "./Editor/ApplicationPage";
+import ProductsPage from "./ProductsPage";
+import CategoryPage from "./CategoryPage";
+import ApplicationPage from "./ApplicationPage";
 import { FaBox, FaThLarge, FaCubes } from "react-icons/fa";
 
 export default function HomePage() {

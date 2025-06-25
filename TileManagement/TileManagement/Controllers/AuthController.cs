@@ -25,7 +25,7 @@ namespace TileManagement.Controllers
             _hasher = new PasswordHasher<User>();
         }
 
-        // 🔐 LOGIN
+        // LOGIN
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UserAuthDto login)
         {
@@ -50,7 +50,7 @@ namespace TileManagement.Controllers
             });
         }
 
-        // 📝 REGISTER
+        // REGISTER
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserAuthDto register)
         {
@@ -81,7 +81,7 @@ namespace TileManagement.Controllers
             });
         }
 
-        // 🔑 JWT Generator
+        // JWT Generator
         private string GenerateJwtToken(Users user)
         {
             var claims = new[]
@@ -104,14 +104,14 @@ namespace TileManagement.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        // ✅ Unified DTO
+        // Unified DTO
         public class UserAuthDto
         {
             public string Username { get; set; } = string.Empty;
             public string Password { get; set; } = string.Empty;
         }
 
-        // ✅ Lightweight model for hashing
+        // Lightweight model for hashing
         private class User
         {
             public string? Username { get; set; }

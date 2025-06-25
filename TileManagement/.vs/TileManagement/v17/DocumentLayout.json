@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\controllers\\categorymastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|c:\\users\\devis\\onedrive\\documents\\github\\tile-management\\tilemanagement\\tilemanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA050F3-3F0F-478A-900F-8A23B4F27376}|TileManagement\\TileManagement.csproj|solutionrelative:tilemanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TileManagement\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.Development.json",
-              "RelativeToolTip": "TileManagement\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-23T05:05:33.831Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Program.cs",
+              "RelativeToolTip": "TileManagement\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:14:49.421Z",
               "EditorCaption": ""
             },
             {
@@ -61,9 +57,9 @@
               "RelativeDocumentMoniker": "TileManagement\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "TileManagement\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:44:24.792Z",
+              "WhenOpened": "2025-06-25T13:11:22.851Z",
               "EditorCaption": ""
             },
             {
@@ -74,58 +70,49 @@
               "RelativeDocumentMoniker": "TileManagement\\Controllers\\CategoryMasterController.cs",
               "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Controllers\\CategoryMasterController.cs",
               "RelativeToolTip": "TileManagement\\Controllers\\CategoryMasterController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:15:33.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "TileManagement\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Models\\Users.cs",
-              "RelativeToolTip": "TileManagement\\Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:20:39.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "TileManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.json",
-              "RelativeToolTip": "TileManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T09:10:08.648Z",
+              "WhenOpened": "2025-06-25T13:11:21.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TileManagement\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Controllers\\AuthController.cs",
               "RelativeToolTip": "TileManagement\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T08:08:46.891Z"
+              "WhenOpened": "2025-06-25T13:11:06.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Program.cs",
-              "RelativeDocumentMoniker": "TileManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Program.cs",
-              "RelativeToolTip": "TileManagement\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwv1EAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TileManagement\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TileManagement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T04:44:30.816Z"
+              "WhenOpened": "2025-06-23T16:03:51.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "TileManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\devis\\OneDrive\\Documents\\GitHub\\Tile-Management\\TileManagement\\TileManagement\\appsettings.json",
+              "RelativeToolTip": "TileManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T09:10:08.648Z",
+              "EditorCaption": ""
             }
           ]
         }

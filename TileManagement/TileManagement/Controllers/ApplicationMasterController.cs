@@ -16,7 +16,7 @@ namespace TileManagement.Controllers
             _context = context;
         }
 
-        // ✅ GET: api/applicationmaster
+        //GET: api/applicationmaster
         [HttpGet]
         public IActionResult GetAllApplications()
         {
@@ -24,7 +24,7 @@ namespace TileManagement.Controllers
             return Ok(applications);
         }
 
-        // ✅ GET: api/applicationmaster/{id}
+        // GET: api/applicationmaster/{id}
         [HttpGet("{id}")]
         public IActionResult GetApplicationById(int id)
         {
@@ -35,7 +35,7 @@ namespace TileManagement.Controllers
             return Ok(app);
         }
 
-        // ✅ POST: api/applicationmaster
+        // POST: api/applicationmaster
         [HttpPost]
         public IActionResult CreateApplication([FromBody] ApplicationMaster app)
         {
@@ -77,7 +77,7 @@ namespace TileManagement.Controllers
             return Ok(new { message = "Application updated successfully." });
         }
 
-        // ✅ DELETE: api/applicationmaster/{id}
+        // DELETE: api/applicationmaster/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteApplication(int id)
         {

@@ -29,17 +29,25 @@ export default function ApplicationPage() {
     emptyForm: {
       applicationId: null,
       name: "",
-      block: "0",
+      block: "0", // default is visible (0)
     },
-    getPayload: (data) => ({
-      applicationId: data.applicationId,
-      name: data.name.trim(),
-      block: data.block === "1",
-    }),
+    getPayload: (data) => {
+      const payload = {
+        name: data.name.trim(),
+        block: data.block === "1", // convert "1"/"0" to true/false
+      };
+
+      if (data.applicationId !== null) {
+        payload.applicationId = data.applicationId; // only send during update
+      }
+
+      return payload;
+    },
   });
 
   return (
     <div className="space-y-8">
+      {/* Form */}
       <FormWrapper
         onSubmit={handleSubmit}
         message={message}
@@ -66,6 +74,7 @@ export default function ApplicationPage() {
         </select>
       </FormWrapper>
 
+      {/* Table */}
       <ListTable
         columns={[
           { label: "Name" },
