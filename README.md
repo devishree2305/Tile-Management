@@ -17,7 +17,6 @@ Tile-Management/
 Clone the Repository
 
 git clone https://github.com/your-username/Tile-Management.git  
-cd Tile-Management
 
 ## Frontend Setup (tiles-manage1)
 Configure API Port , inside /src/api - Ensure matches the port used by the backend.  
